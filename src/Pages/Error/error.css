@@ -1,0 +1,23 @@
+.not-found{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  width: 100%;
+
+  h1{
+    font-size: 120px;
+  }
+
+  a{
+    text-decoration: none;
+    background: #007510;
+    color: #f9f9f9;
+    padding: 10px;
+
+    &&:hover{
+      background-color: #00a015;
+    }
+  }
+}
