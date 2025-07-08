@@ -23,5 +23,6 @@ export default function Detalhes(){
     <div>
       <h1>Detalhes do filme: {id}</h1>
     </div>
+    
   )
 }
